@@ -17,72 +17,70 @@ body{
     min-height: 200vh;
     
 }
-.korean p{  
-    position: relative;
-    top: 100px;    
-    z-index: 3;
-
+.list .back-ground{
+    min-height: 100vh;
+    width: 100%;    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    filter: blur(10px); 
 }
-.backPage{
+.list h1{
+    color: #fff;
+    z-index: 3;
+}
+.list {
     display: flex;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
 }
-.backPage .content{    
-    display: flex;   
+.list .content{
     position: absolute;
-    margin-top: 50px;
-    min-height: 500px;
+    display: block;
+    min-height: 400px;
     width: 90%;
-    background: rgba(255, 255, 255, 0.3);
+    background: transparent;
     z-index: 3;
     border-radius: 10px;
     padding: 20px;
 }
-.backPage .content .box{
-    min-height: 100%;
-    width: 33%;
+.frame{
+    display: block;
+    white-space: nowrap;
+    overflow-x: scroll;    
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    /* display: flex;
+    flex-direction: row;     */
+}
+.list .content .frame .box{
+    display: inline-block;
+    margin-right: 10px;
+    white-space: normal;
+    min-height: 400px;
+    width: 300px;
     margin: 5px;
     background: linear-gradient(to bottom right, #9398f0, #bb94f5, #DD93E7);
     border-radius: 5px;
     text-align: center;
 }
-.backPage .content .box img{
-    height: 400px;
+.list .content .box img{
+    height: 350px;
     width: 100%;
-    padding: 10px;    
+    padding: 10px;
+    cursor: pointer;  
+    transition: 0.5s;
+    border-radius: 15px;
 }
-.backPage .content .box a{
+.list .content .box img:hover{
+    transform: scale(1.07, 1.1);
+}
+.list .content .box a{
     font-size: 24px;
-    text-decoration: none;    
+    text-decoration: none;
+     
 }
-.backPage-1{
-    min-height: 100vh;
-    width: 100%;
-    background-image: url(../img/5a668ea2a9dea.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    filter: blur(10px); 
-}
-.backPage-2{
-    min-height: 100vh;
-    width: 100%;
-    background-image: url(../img/xanh.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    filter: blur(10px); 
-}
-.backPage-3{
-    min-height: 100vh;
-    width: 100%;
-    background-image: url(../img/tim.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    filter: blur(10px); 
-}
-.row-1, .row-2{
-}
-
 .header{
     position: fixed;
     display: flex;
@@ -104,7 +102,6 @@ body{
 
 .header .nav{
     display: flex;
-    /* background: rgb(219, 185, 209); */
 }
 
 .header .nav a{

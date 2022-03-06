@@ -9,35 +9,103 @@
     <script src="https://kit.fontawesome.com/05476a2ddc.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <?php require_once "blocks/header.php";?>         
-    <div class="backPage">
-        <div class="backPage-1"></div>
-        <div class="content">
-            <div class="box">
-                <img src="img/6216fabedd4ec2a5150435cd_poster-hen-ho-chon-cong-so.jpeg" alt="film">
-                <a href="#">Hẹn hò chốn công sở</a>
+    <?php require_once "blocks/header.php";?>             
+    <div class="list">
+        <div style="background-image: url(img/5a668ea2a9dea.png);" 
+             class="back-ground"></div>
+        <div class="content" style="margin-top: 60px;">
+            <h1>Cartoon</h1>
+            <style>
+                button{color: red;}
+            </style>            
+            <div class="frame">
+                <div class="box">
+                    <img src="img/6216fabedd4ec2a5150435cd_poster-hen-ho-chon-cong-so.jpeg" alt="film">
+                    <a href="#">Hẹn hò chốn công sở</a>
+                </div>
+                <div class="box">
+                    <img src="img/6216fabedd4ec2a5150435cd_poster-hen-ho-chon-cong-so.jpeg" alt="film">
+                    <a href="#">Hẹn hò chốn công sở</a>
+                </div>
+                <div class="box">
+                    <img src="img/6216fabedd4ec2a5150435cd_poster-hen-ho-chon-cong-so.jpeg" alt="film">
+                    <a href="#">Hẹn hò chốn công sở</a>
+                </div>
+                <div class="box">
+                    <img src="img/6216fabedd4ec2a5150435cd_poster-hen-ho-chon-cong-so.jpeg" alt="film">
+                    <a href="#">Hẹn hò chốn công sở</a>
+                </div>
+                <div class="box">
+                    <img src="img/6216fabedd4ec2a5150435cd_poster-hen-ho-chon-cong-so.jpeg" alt="film">
+                    <a href="#">Hẹn hò chốn công sở</a>
+                </div>
             </div>
-            <div class="box"></div>
-            <div class="box"></div>            
-            <div class="box"></div>                             
-        </div>            
-    </div> 
-    <div class="backPage">
-        <div class="backPage-2"></div>
-        <div class="content">
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
         </div>
-    </div>  
-    <div class="backPage">
-        <div class="backPage-3"></div>
-        <div class="content">
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
+    </div>
+    <div class="list">
+        <div style="background-image: url(img/tim.png);" 
+             class="back-ground"></div>
+        <div class="content" style="margin-top: 60px;">
+            <h1>Cartoon</h1>
+            <style>
+                button{color: red;}
+            </style>            
+            <div class="frame">
+                <div class="box">
+                    <img src="img/6216fabedd4ec2a5150435cd_poster-hen-ho-chon-cong-so.jpeg" alt="film">
+                    <a href="#">Hẹn hò chốn công sở</a>
+                </div>
+                <div class="box">
+                    <img src="img/6216fabedd4ec2a5150435cd_poster-hen-ho-chon-cong-so.jpeg" alt="film">
+                    <a href="#">Hẹn hò chốn công sở</a>
+                </div>
+                <div class="box">
+                    <img src="img/6216fabedd4ec2a5150435cd_poster-hen-ho-chon-cong-so.jpeg" alt="film">
+                    <a href="#">Hẹn hò chốn công sở</a>
+                </div>
+                <div class="box">
+                    <img src="img/6216fabedd4ec2a5150435cd_poster-hen-ho-chon-cong-so.jpeg" alt="film">
+                    <a href="#">Hẹn hò chốn công sở</a>
+                </div>
+                <div class="box">
+                    <img src="img/6216fabedd4ec2a5150435cd_poster-hen-ho-chon-cong-so.jpeg" alt="film">
+                    <a href="#">Hẹn hò chốn công sở</a>
+                </div>
+            </div>
         </div>
-    </div> 
+    </div>
+    <div class="list">
+        <div style="background-image: url(img/xanh.png);" 
+             class="back-ground"></div>
+        <div class="content" style="margin-top: 60px;">
+            <h1>Cartoon</h1>
+            <style>
+                button{color: red;}
+            </style>            
+            <div class="frame">
+                <div class="box">
+                    <img src="img/6216fabedd4ec2a5150435cd_poster-hen-ho-chon-cong-so.jpeg" alt="film">
+                    <a href="#">Hẹn hò chốn công sở</a>
+                </div>
+                <div class="box">
+                    <img src="img/6216fabedd4ec2a5150435cd_poster-hen-ho-chon-cong-so.jpeg" alt="film">
+                    <a href="#">Hẹn hò chốn công sở</a>
+                </div>
+                <div class="box">
+                    <img src="img/6216fabedd4ec2a5150435cd_poster-hen-ho-chon-cong-so.jpeg" alt="film">
+                    <a href="#">Hẹn hò chốn công sở</a>
+                </div>
+                <div class="box">
+                    <img src="img/6216fabedd4ec2a5150435cd_poster-hen-ho-chon-cong-so.jpeg" alt="film">
+                    <a href="#">Hẹn hò chốn công sở</a>
+                </div>
+                <div class="box">
+                    <img src="img/6216fabedd4ec2a5150435cd_poster-hen-ho-chon-cong-so.jpeg" alt="film">
+                    <a href="#">Hẹn hò chốn công sở</a>
+                </div>
+            </div>
+        </div>
+    </div>
     <?php require_once "blocks/footer.php";?>         
     <script src="assets/script.js"></script>
 </body>
