@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;  
+    color: #fff;  
+}
+body{    
+    min-height: 200vh;
+    
+}
+.korean p{  
+    position: relative;
+    top: 100px;    
+    z-index: 3;
+
+}
+.backPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.backPage .content{    
+    display: flex;   
+    position: absolute;
+    margin-top: 50px;
+    min-height: 500px;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 3;
+    border-radius: 10px;
+    padding: 20px;
+}
+.backPage .content .box{
+    min-height: 100%;
+    width: 33%;
+    margin: 5px;
+    background: linear-gradient(to bottom right, #9398f0, #bb94f5, #DD93E7);
+    border-radius: 5px;
+    text-align: center;
+}
+.backPage .content .box img{
+    height: 400px;
+    width: 100%;
+    padding: 10px;    
+}
+.backPage .content .box a{
+    font-size: 24px;
+    text-decoration: none;    
+}
+.backPage-1{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../img/5a668ea2a9dea.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    filter: blur(10px); 
+}
+.backPage-2{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../img/xanh.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    filter: blur(10px); 
+}
+.backPage-3{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../img/tim.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    filter: blur(10px); 
+}
+.row-1, .row-2{
+}
+
+.header{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    font-size: 24px;
+    z-index: 4;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo{
+    
+}
+.header.sticky{
+    background: #000;
+    filter: invert(1);
+    box-shadow: 0 0 10px #fff;
+}
+
+.header .nav{
+    display: flex;
+    /* background: rgb(219, 185, 209); */
+}
+
+.header .nav a{
+    text-decoration: none;
+    margin-right: 70px;
+}
+
+.header .search{
+    padding: 10px;    
+}
+.header .search .form-search{
+    display: flex;
+}
+
+.header .search input{
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 24px;    
+    box-shadow: none;
+    padding: 0 10px;
+    margin-bottom: 5px;
+}
+
+.search .line{
+    width: 100%;
+    background: #fff;
+    height: 2px;    
+}
+.fa-solid{
+    float: right;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.footer .contact{
+    display: flex;
+    flex-direction: column;
+}
+.footer .backPage{
+    min-height: 50vh;
+    width: 100%;
+    background-image: url(../img/5a668ea2a9d3d.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    filter: blur(10px); 
+}
+.footer .contact{
+    position: absolute;
+    z-index: 3;
+    border-radius: 10px;
+    padding: 20px;
+}
+.footer .contact a{
+    font-size: 36px;
+    text-decoration: none;    
+    margin: 10px;
+}
